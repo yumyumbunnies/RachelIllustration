@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95BA604C-3C7C-4779-9B33-B40687557B89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{4591B216-84D8-4014-B73C-332E8CA13062}"
+	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{8F1383CE-AAB8-4E37-AA7E-0569C7B134A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{6B6A2870-844E-4C52-BA4F-2EAB438F4771}"
+	ProjectSection(SolutionItems) = preProject
+		styles.css = styles.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4591B216-84D8-4014-B73C-332E8CA13062} = {95BA604C-3C7C-4779-9B33-B40687557B89}
+		{8F1383CE-AAB8-4E37-AA7E-0569C7B134A8} = {95BA604C-3C7C-4779-9B33-B40687557B89}
+		{6B6A2870-844E-4C52-BA4F-2EAB438F4771} = {95BA604C-3C7C-4779-9B33-B40687557B89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02871123-66C0-4906-B1D5-21FEAE92F83B}
